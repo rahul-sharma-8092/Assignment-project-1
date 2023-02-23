@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url(./images/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 45vw, cover;
+    background-position: 40% 65px;
+    background-color: #F0F4F5;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw 0 5vw;
+}
+.logo{
+    width: 12vw;
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-bar li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.nav-bar li a:hover{
+    text-decoration: underline;
+    color: #ff0077;
+    font-weight: 800;
+}
+
+.main{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 4.5vw 5vw 0;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main-left h1{
+    font-size: 70px;
+    line-height: 92px;
+}
+
+.main-left h1 span{
+    letter-spacing: 1.5px;
+}
+
+.main-left p{
+    padding-top: 30px;
+    color: #7C7C90;    
+    width: 80%;
+    font-size: 18px;
+}
+
+.bottom{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 260px;
+}
+
+.bottom button{
+    padding: 15px 40px;
+    width: fit-content;
+    background-color: #20BC7E;
+    border: 1px #20BC7E solid;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.bottom button:hover{
+    background-color: #fff;
+    color: #20BC7E;
+    border: 3px solid #20BC7E;
+}
+
+.mouse{
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    right: auto;
+    left: 53%;
+}
+
+.main-right{
+    width: 50%;
+    height: 75vh;
+}
+
+.green-img{
+    width: 450px;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.yellow-img{
+    width: 400px;
+    position: absolute;
+    bottom: 8.5vh;
+    right: 5px;
+}
+
+.doctor-img{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
