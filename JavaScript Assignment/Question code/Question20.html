@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What You'll Learn</title>
+  </head>
+  <body>
+    <h1>What You'll Learn</h1>
+    <button onclick="addItem()">Add Item</button>
+    <ul id="list"></ul>
+
+    <!-- JavaScript File -->
+    <script>
+      const listItemArray = [
+        'HTML and Semantics',
+        'Starting with CSS',
+        'Working Template',
+        'Mobile responsive webpages',
+        'Grid and Flex-box in CSS',
+        'Projects using HTML & CSS',
+        'Version Control and Git',
+        'Getting Started with JavaScript',
+        'Advance JavaScript',
+        'Working with DOM',
+        'Making Projects using HTML, CSS and JavaScript',
+        'Understanding Fundamental of Computer Science',
+        'Getting Started with Database',
+        'Understanding the Database',
+        'Starting with NodeJS and Express',
+        'Understanding React and its Fundamentals',
+        'Understanding Hooks and Routers',
+        'Starting and Completing Full Fledge Projects'
+      ];
+      
+      let currentIndex = 0;
+      
+      function addItem() {
+        const list = document.getElementById('list');
+        if (currentIndex < listItemArray.length) {
+          const newItem = document.createElement('li');
+          newItem.innerText = listItemArray[currentIndex];
+          list.appendChild(newItem);
+          currentIndex++;
+        } else {
+          alert('All items have been added.');
+        }
+      }
+    </script>
+  </body>
+</html>

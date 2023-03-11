@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toggle Heading Text</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+        button{
+            padding: 5px 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1 id="heading">The most affordable learning platform</h1>
+    <button onclick="toggleHeading()">Toggle</button>
+    <script>
+      function toggleHeading() {
+        const heading = document.getElementById('heading');
+        if (heading.innerText === 'The most affordable learning platform') {
+          heading.innerText = 'PW Skills';
+        } else {
+          heading.innerText = 'The most affordable learning platform';
+        }
+      }
+    </script>
+  </body>
+</html>
