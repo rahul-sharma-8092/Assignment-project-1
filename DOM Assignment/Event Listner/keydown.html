@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keydown and Keyup Event Example</title>
+  </head>
+  <body>
+    <h1>Type something:</h1>
+    <input type="text" id="input-field">
+    <p id="output"></p>
+
+    <script>
+      const inputField = document.getElementById("input-field");
+      const output = document.getElementById("output");
+
+      inputField.addEventListener("keydown", (event) => {
+        console.log("Keydown event fired:", event.key);
+      });
+
+      inputField.addEventListener("keyup", (event) => {
+        console.log("Keyup event fired:", event.key);
+        output.textContent = `You typed: ${event.target.value}`;
+      });
+    </script>
+  </body>
+</html>
