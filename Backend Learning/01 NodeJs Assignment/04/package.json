@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-assignment",
+  "version": "1.0.0",
+  "description": "This is a first assignment of NodeJs which is given by PW Skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Kumar Sharma",
+  "license": "ISC"
+}
