@@ -82,3 +82,6 @@ To run this application, you need to have the following installed on your system
 ## Author
 
   ### Rahul Kumar Sharma
+  
+  - [Chat on WhatsApp](http://wa.me/+918092726691)
+  - [Email](mailto:rahulrohanroshan@gmail.com)
