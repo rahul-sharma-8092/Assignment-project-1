@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	background-color: #181e29;
+}
+
+.container {
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 40px;
+	box-shadow: 0 0 10px #2bf4ff;
+	border-radius: 5px;
+	background-color: #d5e179;
+}
+
+.profile-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	object-fit: contain;
+	border: 1px solid #181e29;
+	box-shadow: 0 0 8px #181e29;
+}
+
+.username {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.bio {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.follower-count {
+	text-align: center;
+	font-size: 20px;
+	color: #0b0c10;
+}
