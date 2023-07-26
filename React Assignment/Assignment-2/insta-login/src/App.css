@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+.App {
+	width: 100%;
+	min-height: 100vh;
+	/* background: #000; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 480px;
+	min-width: 400px;
+	border: 1px solid #808080;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 25px;
+	box-shadow: 0 0 5px #87ceeb;
+}
+
+.input-cont {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+input,
+button {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #808080;
+}
+
+.input-cont button {
+	font-weight: 600;
+	font-size: 20px;
+	background: #87ceeb;
+	cursor: pointer;
+}
+
+input:focus {
+	box-shadow: 0 0 5px rgb(29, 151, 199);
+}
+
+button:hover {
+	background: #4cb8e3;
+}
+
+span {
+	color: #0194ce;
+	font-weight: 600;
+	cursor: pointer;
+}
