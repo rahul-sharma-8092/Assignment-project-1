@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Rahul Sharma -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Movie Search App | Rahul Sharma</title>
+	</head>
+	<body>
+		<!-- Search Box -->
+		<header class="header">
+			<h1>Movie Search App</h1>
+			<div class="input-wrapper">
+				<input
+					type="text"
+					placeholder="Search for movies..."
+					autocomplete="off"
+					id="search"
+				/>
+				<button type="submit" id="search-btn">Search</button>
+			</div>
+			<p id="error-msg"></p>
+		</header>
+
+		<!-- Main Section -->
+		<section class="container" id="container">
+			<!-- Poster Section -->
+			<div class="left-cont">
+				<div>
+					<img id="Poster" src="" alt="Movie-Poster" eager />
+				</div>
+			</div>
+			<!-- Details Section -->
+			<div class="right-cont">
+				<ul class="details">
+					<li>Title: <span id="Title"></span></li>
+
+					<li>Released: <span id="Year"></span></li>
+
+					<li>
+						Actors:
+						<span id="Actors"></span>
+					</li>
+
+					<li>Director: <span id="Director"></span></li>
+
+					<li>
+						Plot:
+						<span id="Plot"></span>
+					</li>
+
+					<li>BoxOffice: <span id="BoxOffice"></span></li>
+
+					<li>Imdb rating: <span id="imdbRating"></span><span>/10</span></li>
+
+					<li>Awards: <span id="Awards"></span></li>
+
+					<li>Language: <span id="Language"></span></li>
+
+					<li>Country: <span id="Country"></span></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- JavaScript File -->
+		<script src="./script.js"></script>
+	</body>
+</html>
