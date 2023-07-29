@@ -1,4 +1,4 @@
-# Simple Todo Web App with React
+# Todo Web App with React
 
 This is a simple Todo Web App created using React. It allows users to add, update, and remove tasks in a todo list.
 
@@ -19,3 +19,7 @@ This is a simple Todo Web App created using React. It allows users to add, updat
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact me:
+- [Chat on WhatsApp](http://wa.me/+918092726691)
+- [Email](mailto:rahulrohanroshan@gmail.com)
