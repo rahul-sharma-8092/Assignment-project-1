@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="./style.css" />
+		<title>PW Skills Blog | Rahul Sharma</title>
+	</head>
+	<body>
+		<!-- header section -->
+		<header>
+			<div class="logo">PW Skills Blog</div>
+			<div id="addBlog">+</div>
+		</header>
+
+		<!-- Model(Add Blog Post) -->
+		<div class="model">
+			<div class="model-content">
+				<!-- Close button -->
+				<span class="close">+</span>
+
+				<!-- Add Blog Form  -->
+				<form action="">
+					<input
+						type="url"
+						name="posterUrl"
+						id="posterUrl"
+						placeholder="Enter Blog Post URL :"
+						value="https://img.freepik.com/premium-vector/artificial-intelligence-machine-learning-poster_35632-60.jpg"
+					/>
+
+					<input type="text" name="title" id="title" placeholder="Enter Blog Title :" />
+
+					<input
+						type="text"
+						name="description"
+						id="description"
+						placeholder="Enter Blog Description :"
+					/>
+
+					<textarea
+						name="content"
+						id="content"
+						cols="30"
+						rows="7"
+						placeholder="Write..."
+					></textarea>
+
+					<button class="btn" type="submit">Add Blog</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Blog Section -->
+		<section class="container">
+			<!-- <div class="blog">
+				<div class="trash"><i class="fa-solid fa-trash"></i></div>
+				<img
+					class="poster"
+					src="https://img.freepik.com/premium-vector/artificial-intelligence-machine-learning-poster_35632-60.jpg"
+					alt="Blog-Poster"
+				/>
+				<h2 class="title">Blog Title</h2>
+				<p class="description">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+				</p>
+				<button class="btn">Read</button>
+			</div> -->
+		</section>
+
+		<!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/a6d014f8b7.js" crossorigin="anonymous"></script>
+
+		<!-- JavaScript File -->
+		<script src="./script.js"></script>
+	</body>
+</html>

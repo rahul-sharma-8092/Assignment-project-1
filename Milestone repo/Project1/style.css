@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 1px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+	background: #1c2431;
+}
+
+body {
+	background: #1c2431;
+	color: #fff;
+	padding: 20px 5%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	padding: 0px 10px;
+	top: 0;
+	background: #1c2431;
+	border-bottom: 2px solid #b7d51e;
+	z-index: 10;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 600;
+	color: #ffff00;
+}
+
+#addBlog {
+	font-size: 40px;
+	cursor: pointer;
+	transition: all 0.7s;
+	background: transparent;
+}
+
+#addBlog:hover {
+	color: #ffff00;
+}
+
+.backBtn {
+	font-size: 40px;
+	color: #ffff00;
+}
+
+/* Blog Section */
+.container {
+	/* margin-top: 20px; */
+	padding: 20px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.container .blog {
+	width: 30%;
+	min-width: 300px;
+	background: #ffffff;
+	padding: 20px;
+	margin: 20px 0px;
+	border-radius: 10px;
+	color: #1c2431;
+	box-shadow: 0 0 5px #d1d2df;
+	position: relative;
+	border: 2px solid #1c2431;
+	text-align: center;
+}
+
+.poster {
+	width: 100%;
+	min-width: 270px;
+	max-height: 250px;
+	min-height: 250px;
+	border-radius: inherit;
+	border: 1px solid #1c2431;
+}
+
+.title {
+	font-size: 25px;
+	line-height: 35px;
+	text-align: left;
+}
+
+.description {
+	text-align: justify;
+}
+
+.btn {
+	width: 100%;
+	margin: 10px 0px;
+	padding: 5px;
+	background: #d3f335;
+	color: #1c2431;
+	font-weight: 600;
+	border-radius: 5px;
+	border: 1px solid #1c2431;
+	cursor: pointer;
+	font-size: 18px;
+	transition: 0.3s;
+	outline: none;
+}
+
+.btn:hover {
+	background: #b7d51e;
+}
+.btn:focus {
+	box-shadow: 0 0 3px #1c2431;
+}
+
+.trash {
+	width: 40px;
+	height: 40px;
+	background: #ffff;
+	box-shadow: 0 0 5px #fff;
+	color: #1c2431;
+	border-top: 2px solid #1c2431;
+	border-right: 2px solid #1c2431;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.trash:hover {
+	background: #1c2431;
+	color: #fff;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+/* Model */
+.model {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	overflow: auto;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+
+.model-content {
+	width: 40%;
+	margin: 5% auto;
+	padding: 20px 20px 30px;
+	background: #f4f6fe;
+	color: #1c2431;
+	border: 2px solid #ffff00;
+	border-radius: 5px;
+	position: relative;
+}
+
+.close {
+	font-size: 40px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	color: #ff0000;
+	transition: 0.8s;
+	user-select: none;
+}
+
+.close:hover,
+.close:focus {
+	transform: scale(1.5) rotate(45deg);
+}
+
+form {
+	width: 100%;
+	margin-top: 30px;
+}
+
+form input,
+form textarea {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	outline: none;
+	resize: none;
+	border: 1px solid #1c2431;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+form input:focus,
+form textarea:focus {
+	box-shadow: 0 0 3px #1c2431;
+}
+
+form .btn {
+	padding: 10px;
+}
+
+.blog-wrapper {
+	width: 100%;
+	padding: 20px 10px;
+	margin-top: 10px;
+}
+
+.wrapper {
+	padding: 10px;
+}
+
+.heading {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.heading-container {
+	flex-basis: 50%;
+}
+
+.heading-container h1 {
+	display: inline-block;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 70px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ffff00;
+}
+
+.heading-container p {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.poster-container {
+	max-width: 500px;
+	max-height: 250px;
+	overflow: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 3px #fff;
+	background: transparent;
+}
+
+.poster-container img {
+	width: 100%;
+}
+
+.blog-content {
+	margin-top: 30px;
+	text-align: justify;
+}
+
+@media (max-width: 768px) {
+	.heading {
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.heading-container {
+		width: 100%;
+		text-align: center;
+	}
+	.heading-container p {
+		text-align: center;
+	}
+	.model-content {
+		width: 80%;
+		margin: 9% auto;
+	}
+}
