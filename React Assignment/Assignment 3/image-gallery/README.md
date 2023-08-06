@@ -2,6 +2,8 @@
 
 This mini project is an image gallery built using React, where users can view a set of images fetched from a given API. The gallery displays thumbnails of the images along with their relevant details. When a user clicks on a thumbnail, they are redirected to a single image view, where the image is shown in a larger view, along with its title and description.
 
+### [Image Gallery Deployment Link](https://rahul-sharma-8092.github.io/image-gallery/)
+
 ## Requirements
 
 -   Node.js and npm should be installed on your system to run this application.
